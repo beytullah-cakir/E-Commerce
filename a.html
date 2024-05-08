@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayakkabı Mağazası</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+    }
+
+    header {
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    main {
+      display: flex;
+    }
+    
+    .urun {
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      /* padding: 10px; */
+      text-align: center;
+      /* width: 200px; */
+    }
+
+    .urun img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .urun h3,
+    .urun p {
+      margin: 5px;
+    }
+
+    .urun button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      text-align: center;
+      padding: 20px;
+    }
+    /* tr{
+        width: 33%;
+        vertical-align: center;
+        text-align: center;
+    }
+    td{
+        padding-left:33%;
+        padding-right:50px;
+    } */
+  </style>
+  <body>
+    <header>
+      <h1>Ayakkabı Mağazası</h1>
+    </header>
+    <div>
+      <table>
+        <tr>
+          <td>
+            <div class ="urun">
+              <img src="ayakkabı1.png" alt="Ayakkabı 1" />
+              <h3>Ürün Adı</h3>
+              <p>Fiyat: 120 TL</p>
+              <button>Sepete Ekle</button>
+            </div>
+          </td>
+          <td>
+            <div class="urun">
+              <img src="ayakkabı1.png" alt="Ayakkabı 2" />
+              <h3>Ürün Adı</h3>
+              <p>Fiyat: 120 TL</p>
+              <button>Sepete Ekle</button>
+            </div>
+          </td>
+          <td>
+            <div class="urun">
+              <img src="ayakkabı1.png" alt="Ayakkabı 3" />
+              <h3>Ürün Adı</h3>
+              <p>Fiyat: 120 TL</p>
+              <button>Sepete Ekle</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class ="urun">
+              <img src="ayakkabı1.png" alt="Ayakkabı 1" />
+              <h3>Ürün Adı</h3>
+              <p>Fiyat: 120 TL</p>
+              <button>Sepete Ekle</button>
+            </div>
+          </td>
+          <td>
+            <div class="urun">
+              <img src="ayakkabı1.png" alt="Ayakkabı 2" />
+              <h3>Ürün Adı</h3>
+              <p>Fiyat: 120 TL</p>
+              <button>Sepete Ekle</button>
+            </div>
+          </td>
+          <td>
+            <div class="urun">
+              <img src="ayakkabı1.png" alt="Ayakkabı 3" />
+              <h3>Ürün Adı</h3>
+              <p>Fiyat: 120 TL</p>
+              <button>Sepete Ekle</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class ="urun">
+              <img src="ayakkabı1.png" alt="Ayakkabı 1" />
+              <h3>Ürün Adı</h3>
+              <p>Fiyat: 120 TL</p>
+              <button>Sepete Ekle</button>
+            </div>
+          </td>
+          <td>
+            <div class="urun">
+              <img src="ayakkabı1.png" alt="Ayakkabı 2" />
+              <h3>Ürün Adı</h3>
+              <p>Fiyat: 120 TL</p>
+              <button>Sepete Ekle</button>
+            </div>
+          </td>
+          <td>
+            <div class="urun">
+              <img src="ayakkabı1.png" alt="Ayakkabı 3" />
+              <h3>Ürün Adı</h3>
+              <p>Fiyat: 120 TL</p>
+              <button>Sepete Ekle</button>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <main>
+      <div>
+        <h2>Kategoriler</h2>
+        <ul>
+          <li><a href="#">Spor Ayakkabı</a></li>
+          <li><a href="#">Günlük Ayakkabı</a></li>
+          <li><a href="#">Koşu Ayakkabısı</a></li>
+          <li><a href="#">Çocuk Ayakkabısı</a></li>
+          <li><a href="#">Bot</a></li>
+        </ul>
+      </div>
+
+      <div class="urunler">
+        <h2>Ürünler</h2>
+      </div>
+
+      <div class="sepet">
+        <h2>Sepet</h2>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Beyabe</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
