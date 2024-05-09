@@ -26,7 +26,7 @@
     }
 
     .urun {
-      margin-bottom: 20px;
+      margin-bottom: 5px;
       border: 1px solid #ccc;
       text-align: center;
     }
@@ -48,6 +48,8 @@
       color: white;
       border: none;
       cursor: pointer;
+      margin: 5px;
+      border-radius: 5px;
     }
 
     footer {
@@ -55,30 +57,139 @@
       text-align: center;
       padding: 20px;
     }
-    #sayfaNumaralari{
-      border:1px solid gray;
+
+    #sayfaNoText {
+      text-align: center;
+      border: 1px solid black;
+      padding: 5px;
       border-radius: 5px;
-      padding: 2px;
+      margin-left: 46%;
+      margin-right: 46%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    #sayfaNumaralari {
+      border-radius: 5px;
+      padding: 3px;
       text-align: center;
     }
-    #yukariCik{
-        background-color: rgb(73, 249, 255);
-        position: fixed;
-        bottom: 30px;
-        right: 30px;
-        width: 50;
-        font-size: 15px;
+
+    #yukariCik {
+      position: fixed;
+      bottom: 3%;
+      right: 1%;
+      font-size: 15px;
+      height: 10%;
+      width: 5%;
+      background-color: #ff9100;
+      border-radius: 50%;
+      align-items: center;
+      display: grid;
+    }
+    #navBar td{
+      text-align: center;
+      border-radius: 5px;
+      border:1px solid black;
+    }
+    .navBarSimge{
+      text-align: center;
     }
   </style>
   <body id="yukari">
     <header>
       <h1>Ayakkabı Mağazası</h1>
     </header>
-    <div>
-      <a href="#yukari" id="yukariCik">YUKARI ÇIKMAK İÇİN TIKLAYINIZ</a>
-    </div>
-    <div>
+
+    <div id="navBar">
       <table>
+        <tr style="width: 100%;">
+          <td style="width:35% ;">
+            <h2 class="navBarSimge">Ürünler</h2>
+          </td>
+          <td style="width: 95%;">
+            <main>
+              <div class="navBarSimge">
+                <h2>Kategoriler</h2>
+                <select>
+                  <option><a href="#">Spor Ayakkabı</a></option>
+                  <option><a href="#">Günlük Ayakkabı</a></option>
+                  <option><a href="#">Koşu Ayakkabısı</a></option>
+                  <option><a href="#">Çocuk Ayakkabısı</a></option>
+                  <option><a href="#">Bot</a></option>
+                  <option><a href="#">Krampon</a></option>
+                </select>
+            </main>
+          </td>
+          <td style="width: 65%;">
+            <h2 class="navBarSimge">Sepet</h2>
+          </td>
+        </tr>
+      </table>
+
+      </div>
+    </div>
+    
+    <div>
+      <a href="#yukari" id="yukariCik">
+        <img src="ok.png" alt="yukariOk" style="width: 50%; height: 60%; margin-left: auto; margin-right: auto;">
+      </a>
+    </div>
+
+    <div name="table">
+      <table>
+        <tr>
+          <td>
+            <div class="urun">
+              <img src="ayakkabı1.png" alt="Ayakkabı 1" />
+              <h3>Ürün Adı</h3>
+              <p>Fiyat: 120 TL</p>
+              <button>Sepete Ekle</button>
+            </div>
+          </td>
+          <td>
+            <div class="urun">
+              <img src="ayakkabı1.png" alt="Ayakkabı 2" />
+              <h3>Ürün Adı</h3>
+              <p>Fiyat: 120 TL</p>
+              <button>Sepete Ekle</button>
+            </div>
+          </td>
+          <td>
+            <div class="urun">
+              <img src="ayakkabı1.png" alt="Ayakkabı 3" />
+              <h3>Ürün Adı</h3>
+              <p>Fiyat: 120 TL</p>
+              <button>Sepete Ekle</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="urun">
+              <img src="ayakkabı1.png" alt="Ayakkabı 1" />
+              <h3>Ürün Adı</h3>
+              <p>Fiyat: 120 TL</p>
+              <button>Sepete Ekle</button>
+            </div>
+          </td>
+          <td>
+            <div class="urun">
+              <img src="ayakkabı1.png" alt="Ayakkabı 2" />
+              <h3>Ürün Adı</h3>
+              <p>Fiyat: 120 TL</p>
+              <button>Sepete Ekle</button>
+            </div>
+          </td>
+          <td>
+            <div class="urun">
+              <img src="ayakkabı1.png" alt="Ayakkabı 3" />
+              <h3>Ürün Adı</h3>
+              <p>Fiyat: 120 TL</p>
+              <button>Sepete Ekle</button>
+            </div>
+          </td>
+        </tr>
         <tr>
           <td>
             <div class="urun">
@@ -159,8 +270,9 @@
         </tr>
       </table>
     </div>
+
     <div>
-      <p style="text-align: center; border: 1px solid black;padding: 5px; border-radius: 5px; margin-left: 46%; margin-right: 46%">
+      <p id="sayfaNoText">
         Sayfa
         <a id="sayfaNumaralari" href="">1</a>
         <a id="sayfaNumaralari" href="">2</a>
@@ -168,28 +280,6 @@
         <a id="sayfaNumaralari" href="">4</a>
       </p>
     </div>
-
-    <main>
-      <div>
-        <h2>Kategoriler</h2>
-        <ul>
-          <li><a href="#">Spor Ayakkabı</a></li>
-          <li><a href="#">Günlük Ayakkabı</a></li>
-          <li><a href="#">Koşu Ayakkabısı</a></li>
-          <li><a href="#">Çocuk Ayakkabısı</a></li>
-          <li><a href="#">Bot</a></li>
-          <li><a href="#">Krampon</a></li>
-        </ul>
-      </div>
-
-      <div class="urunler">
-        <h2>Ürünler</h2>
-      </div>
-
-      <div class="sepet">
-        <h2>Sepet</h2>
-      </div>
-    </main>
 
     <footer>
       <p>&copy; 2024 Beyabe</p>
