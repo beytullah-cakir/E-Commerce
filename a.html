@@ -24,13 +24,11 @@
     main {
       display: flex;
     }
-    
+
     .urun {
       margin-bottom: 20px;
       border: 1px solid #ccc;
-      /* padding: 10px; */
       text-align: center;
-      /* width: 200px; */
     }
 
     .urun img {
@@ -57,25 +55,33 @@
       text-align: center;
       padding: 20px;
     }
-    /* tr{
-        width: 33%;
-        vertical-align: center;
-        text-align: center;
+    #sayfaNumaralari{
+      border:1px solid gray;
+      border-radius: 5px;
+      padding: 2px;
+      text-align: center;
     }
-    td{
-        padding-left:33%;
-        padding-right:50px;
-    } */
+    #yukariCik{
+        background-color: rgb(73, 249, 255);
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 50;
+        font-size: 15px;
+    }
   </style>
-  <body>
+  <body id="yukari">
     <header>
       <h1>Ayakkabı Mağazası</h1>
     </header>
     <div>
+      <a href="#yukari" id="yukariCik">YUKARI ÇIKMAK İÇİN TIKLAYINIZ</a>
+    </div>
+    <div>
       <table>
         <tr>
           <td>
-            <div class ="urun">
+            <div class="urun">
               <img src="ayakkabı1.png" alt="Ayakkabı 1" />
               <h3>Ürün Adı</h3>
               <p>Fiyat: 120 TL</p>
@@ -101,7 +107,7 @@
         </tr>
         <tr>
           <td>
-            <div class ="urun">
+            <div class="urun">
               <img src="ayakkabı1.png" alt="Ayakkabı 1" />
               <h3>Ürün Adı</h3>
               <p>Fiyat: 120 TL</p>
@@ -127,7 +133,7 @@
         </tr>
         <tr>
           <td>
-            <div class ="urun">
+            <div class="urun">
               <img src="ayakkabı1.png" alt="Ayakkabı 1" />
               <h3>Ürün Adı</h3>
               <p>Fiyat: 120 TL</p>
@@ -153,6 +159,15 @@
         </tr>
       </table>
     </div>
+    <div>
+      <p style="text-align: center; border: 1px solid black;padding: 5px; border-radius: 5px; margin-left: 46%; margin-right: 46%">
+        Sayfa
+        <a id="sayfaNumaralari" href="">1</a>
+        <a id="sayfaNumaralari" href="">2</a>
+        <a id="sayfaNumaralari" href="">3</a>
+        <a id="sayfaNumaralari" href="">4</a>
+      </p>
+    </div>
 
     <main>
       <div>
@@ -163,6 +178,7 @@
           <li><a href="#">Koşu Ayakkabısı</a></li>
           <li><a href="#">Çocuk Ayakkabısı</a></li>
           <li><a href="#">Bot</a></li>
+          <li><a href="#">Krampon</a></li>
         </ul>
       </div>
 
