@@ -4,7 +4,6 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/fireba
             ref,
             set,
             get,
-            child,
         } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-database.js";
 
         const firebaseConfig = {
@@ -26,7 +25,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/fireba
         document.getElementById("submit").addEventListener("click", (e) => {
             e.preventDefault();
             set(ref(db, "users/" + document.getElementById("name").value), {
-                name: document.getElementById("name").value,
+                username: document.getElementById("name").value,
                 email: document.getElementById("email").value,
                 password: document.getElementById("password").value,
             });
@@ -35,16 +34,17 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/fireba
         document.getElementById("read").addEventListener("click", (e) => {
             let kullanici_adi = document.getElementById("name").value;
             let sifre = document.getElementById("password").value;
-
+            let email=document.getElementById("email").value;
             e.preventDefault();
-            get(ref(db, "users/")).then((snapshot) => {
-                let info=[,,];
-                for(const i in snapshot.val()){
-                    for(const s in snapshot.val()[i]){
-                        
-                        return;
-                    }
-                    
+            get(ref(db, "users/" + kullanici_adi)
+            ).then((snapshot) => {
+                if (snapshot.val().username === kullanici_adi && snapshot.val().password === sifre && snapshot.val().email ===email) {
+                    console.log(snapshot.val().email);
                 }
-            })
+                else {
+                    alert("sg beybaba");
+                }
+            }
+            ).catch((error) => alert(
+                error.message));
         })
