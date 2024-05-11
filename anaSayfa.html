@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="giriş.css" />
+  </head>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+    }
+
+    nav .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-size: 24px;
+      text-align: left;
+    }
+
+    .nav-sekmeler {
+      list-style: none;
+      display: flex;
+    }
+
+    .nav-sekmeler li {
+      margin-right: 20px;
+      position: relative; /* Alt menüyü konumlandırmak için */
+    }
+
+    .nav-sekmeler li .icIcerik {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 200px;
+      z-index: 1;
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .nav-sekmeler li .icIcerik a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .nav-sekmeler li:hover .icIcerik {
+      display: block;
+    }
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+    }
+
+    .search-bar button {
+      padding: 2px 15px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 0 5px 5px 0;
+      cursor: pointer;
+    }
+
+    .search-bar button:hover {
+      background-color: #45a049;
+    }
+    .gallery-container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      overflow-x: hidden;
+    }
+
+    .thumbnails {
+      position: absolute;
+      bottom: 8px;
+      display: flex;
+      flex-direction: row;
+      gap: 6px;
+    }
+
+    .thumbnails div {
+      width: 8px;
+      height: 8px;
+      cursor: pointer;
+      background: #aaa;
+      border-radius: 100%;
+    }
+
+    .thumbnails div.highlighted {
+      background-color: #777;
+    }
+
+    .slides {
+      display: grid;
+      grid-auto-flow: column;
+      width: 100%;
+      height: 720px;
+      overflow-y: auto;
+      overscroll-behavior-x: contain;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+    }
+
+    .slides > div {
+      scroll-snap-align: start;
+    }
+
+    .slides img {
+      width: 540px;
+      object-fit: contain;
+    }
+
+    .slides::-webkit-scrollbar {
+      display: none;
+    }
+    .dropdown a{
+        color: green;
+    }
+  </style>
+  <body>
+    <nav>
+      <div class="container">
+        <h1 class="logo">ŞirketAdı</h1>
+        <ul class="nav-sekmeler">
+          <li class="dropdown">
+            <a href="#">Türler</a>
+            <div class="icIcerik">
+              <a href="#">Spor Ayakkabı</a>
+              <a href="#">Sneaker</a>
+              <a href="#">Klasik Ayakkabı</a>
+              <a href="#">Bot</a>
+              <a href="#">Krampon</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#">Erkek</a>
+            <div class="icIcerik">
+              <a href="#">Spor Ayakkabı</a>
+              <a href="#">Sneaker</a>
+              <a href="#">Klasik Ayakkabı</a>
+              <a href="#">Bot</a>
+              <a href="#">Krampon</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#">Kadın</a>
+            <div class="icIcerik">
+              <a href="#">Spor Ayakkabı</a>
+              <a href="#">Sneaker</a>
+              <a href="#">Klasik Ayakkabı</a>
+              <a href="#">Bot</a>
+              <a href="#">Krampon</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#">Çocuk</a>
+            <div class="icIcerik">
+              <a href="#">Spor Ayakkabı</a>
+              <a href="#">Sneaker</a>
+              <a href="#">Klasik Ayakkabı</a>
+              <a href="#">Bot</a>
+              <a href="#">Krampon</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#">Markalar</a>
+            <div class="icIcerik">
+              <a href="#">Spor Ayakkabı</a>
+              <a href="#">Sneaker</a>
+              <a href="#">Klasik Ayakkabı</a>
+              <a href="#">Bot</a>
+              <a href="#">Krampon</a>
+            </div>
+          </li>
+        </ul>
+        <div class="search-bar">
+          <input type="text" placeholder="Ürün ara..." />
+          <button type="submit">Ara</button>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="gallery-container">
+        <div class="thumbnails"></div>
+        <div class="slides">
+          <div><img src="https://picsum.photos/id/1067/540/720" /></div>
+          <div><img src="https://picsum.photos/id/122/540/720" /></div>
+          <div><img src="https://picsum.photos/id/188/540/720" /></div>
+          <div><img src="https://picsum.photos/id/249/540/720" /></div>
+          <div><img src="https://picsum.photos/id/257/540/720" /></div>
+          <div><img src="https://picsum.photos/id/259/540/720" /></div>
+          <div><img src="https://picsum.photos/id/283/540/720" /></div>
+          <div><img src="https://picsum.photos/id/288/540/720" /></div>
+          <div><img src="https://picsum.photos/id/299/540/720" /></div>
+        </div>
+      </div>
+      <h2 style="margin-top: 1%; margin-bottom: 1%">En Yeni Ürünler</h2>
+      <div class="gallery-container">
+        <div class="slides">
+          <div><img src="ayakkabı1.png" alt="yeni1" /></div>
+          <div><img src="ayakkabı1.png" alt="yeni2" /></div>
+          <div><img src="ayakkabı1.png" alt="yeni3" /></div>
+          <div><img src="ayakkabı1.png" alt="yeni4" /></div>
+          <div><img src="ayakkabı1.png" alt="yeni5" /></div>
+          <div><img src="ayakkabı1.png" alt="yeni6" /></div>
+        </div>
+      </div>
+      <h2 style="margin-top: 1%; margin-bottom: 1%">
+        En Şık Günlük Ayakkabılar
+      </h2>
+      <div class="gallery-container">
+        <div class="slides">
+          <div><img src="ayakkabı1.png" alt="gunluk1" /></div>
+          <div><img src="ayakkabı1.png" alt="gunluk2" /></div>
+          <div><img src="ayakkabı1.png" alt="gunluk3" /></div>
+          <div><img src="ayakkabı1.png" alt="gunluk4" /></div>
+          <div><img src="ayakkabı1.png" alt="gunluk5" /></div>
+          <div><img src="ayakkabı1.png" alt="gunluk6" /></div>
+        </div>
+      </div>
+      <h2 style="margin-top: 1%; margin-bottom: 1%">
+        Popüler Spor Ayakkabıları
+      </h2>
+      <div class="gallery-container">
+        <div class="slides">
+          <div><img src="ayakkabı1.png" alt="spor1" /></div>
+          <div><img src="ayakkabı1.png" alt="spor2" /></div>
+          <div><img src="ayakkabı1.png" alt="spor3" /></div>
+          <div><img src="ayakkabı1.png" alt="spor4" /></div>
+          <div><img src="ayakkabı1.png" alt="spor5" /></div>
+          <div><img src="ayakkabı1.png" alt="spor6" /></div>
+        </div>
+      </div>
+      <h2 style="margin-top: 1%; margin-bottom: 1%">
+        En Sevilen Kramponlar
+      </h2>
+      <div class="gallery-container">
+        <div class="slides">
+          <div><img src="ayakkabı1.png" alt="krampon1" /></div>
+          <div><img src="ayakkabı1.png" alt="krampon2" /></div>
+          <div><img src="ayakkabı1.png" alt="krampon3" /></div>
+          <div><img src="ayakkabı1.png" alt="krampon4" /></div>
+          <div><img src="ayakkabı1.png" alt="krampon5" /></div>
+          <div><img src="ayakkabı1.png" alt="krampon6" /></div>
+        </div>
+      </div>
+      <!-- Ana içerik buraya gelecek -->
+      <div style="background-color: lightgray; width: 100%;height: 200px;">
+    <div><a href="">Hakkımızda</a></div>
+    <div><a href="">İletişim</a></div>
+    <div><a href="">Kadın</a></div>
+    <div><a href="">Erkek</a></div>
+    <div><a href="">Çocuk</a></div>
+    <div><a href="">Spor</a></div>
+    <div><a href="">Sneaker</a></div>
+    <div><a href="">Klasik</a></div>
+    <div><a href="">Bot</a></div>
+    <div><a href="">Krampon</a></div>
+    <p>&copy; BYB</p>
+    </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
