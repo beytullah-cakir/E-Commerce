@@ -34,7 +34,12 @@
       align-items: center;
       justify-content: space-between;
     }
-
+    #solaYasla {
+      text-align: left;
+    }
+    #sagaYasla {
+      text-align: right;
+    }
     .logo {
       font-size: 24px;
       text-align: left;
@@ -43,6 +48,11 @@
     .nav-sekmeler {
       list-style: none;
       display: flex;
+    }
+    footer {
+      background-color: #f0f0f0;
+      text-align: center;
+      padding: 20px;
     }
 
     .nav-sekmeler li {
@@ -137,8 +147,8 @@
     .slides::-webkit-scrollbar {
       display: none;
     }
-    .dropdown a{
-        color: green;
+    .dropdown a {
+      color: green;
     }
   </style>
   <body>
@@ -255,9 +265,7 @@
           <div><img src="ayakkabı1.png" alt="spor6" /></div>
         </div>
       </div>
-      <h2 style="margin-top: 1%; margin-bottom: 1%">
-        En Sevilen Kramponlar
-      </h2>
+      <h2 style="margin-top: 1%; margin-bottom: 1%">En Sevilen Kramponlar</h2>
       <div class="gallery-container">
         <div class="slides">
           <div><img src="ayakkabı1.png" alt="krampon1" /></div>
@@ -268,20 +276,64 @@
           <div><img src="ayakkabı1.png" alt="krampon6" /></div>
         </div>
       </div>
+
+      <footer>
+        <div style="width: 100%; height: 150px;">
+          <!-- <div
+            style="
+              display: inline;
+              border: 1px solid black;
+              width: 50%;
+              height: 150px;
+              right: 5px;
+            "
+          >
+            <a href="">Hakkımızda</a>
+          </div>
+          <div style="border: 1px solid black; display: inline">Kategoriler</div> -->
+          <div>
+            <a style="float:left;" href="">Hakkımızda</a>
+            <span style="padding-left:80%">Kategoriler</span>
+          </div>
+          <div>
+            <a style="float:left;" href="">İletişim</a>
+            <span style="padding-left:80%">Kadın</span>
+          </div>
+          <div>
+            <a style="float:left;" href="">Gizlilik</a>
+            <span style="padding-left:80%">Kategoriler</span>
+          </div>
+          <div>
+            <a style="float:left;" href="">Ödeme Seçenekleri</a>
+            <span style="padding-left:80%">Kategoriler</span>
+          </div>
+          <div>
+            <a style="float:left;" href="">Kargo</a>
+            <span style="padding-left:80%">Kategoriler</span>
+          </div>
+          <div>
+            <a style="float:left;" href="">Kampanyalar</a>
+            <span style="padding-left:80%">Kategoriler</span>
+          </div>
+          <div>
+            <a style="float:left;" href="">İade Koşulları</a>
+            <span style="padding-left:80%">Kategoriler</span>
+          </div>
+          <!-- <div>
+            <a style="display:inline; float:left;" href="">İletişim</a>
+            <a href="">Kadın</a>
+            <a href="">Erkek</a>
+          </div> -->
+          <!-- <div id="sagaYasla"><a href="">Çocuk</a></div>
+          <div><a href="">Spor</a></div>
+          <div><a href="">Sneaker</a></div>
+          <div><a href="">Klasik</a></div>
+          <div><a href="">Bot</a></div>
+          <div><a href="">Krampon</a></div> -->
+          <p>&copy; 2024 Beyabe</p>
+        </div>
+      </footer>
       <!-- Ana içerik buraya gelecek -->
-      <div style="background-color: lightgray; width: 100%;height: 200px;">
-    <div><a href="">Hakkımızda</a></div>
-    <div><a href="">İletişim</a></div>
-    <div><a href="">Kadın</a></div>
-    <div><a href="">Erkek</a></div>
-    <div><a href="">Çocuk</a></div>
-    <div><a href="">Spor</a></div>
-    <div><a href="">Sneaker</a></div>
-    <div><a href="">Klasik</a></div>
-    <div><a href="">Bot</a></div>
-    <div><a href="">Krampon</a></div>
-    <p>&copy; BYB</p>
-    </div>
     </div>
     <script src="script.js"></script>
   </body>
