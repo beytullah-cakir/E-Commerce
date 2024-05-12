@@ -83,6 +83,7 @@
     .search-bar {
       display: flex;
       align-items: center;
+      height: 17px;
     }
 
     .search-bar button {
@@ -92,6 +93,7 @@
       border: none;
       border-radius: 0 5px 5px 0;
       cursor: pointer;
+      height: 17px;
     }
 
     .search-bar button:hover {
@@ -154,7 +156,7 @@
   <body>
     <nav>
       <div class="container">
-        <h1 class="logo">ŞirketAdı</h1>
+        <h1 class="logo" style="margin-left:1%;">ŞirketAdı</h1>
         <ul class="nav-sekmeler">
           <li class="dropdown">
             <a href="#">Türler</a>
@@ -207,8 +209,8 @@
             </div>
           </li>
         </ul>
-        <div class="search-bar">
-          <input type="text" placeholder="Ürün ara..." />
+        <div class="search-bar" style="margin-right: 1%; border-radius: 5px 0 0 5px;">
+          <input type="text" placeholder="Ürün ara..." / style="border-radius: 5px 0 0 5px;">
           <button type="submit">Ara</button>
         </div>
       </div>
@@ -230,7 +232,7 @@
       </div>
       <h2 style="margin-top: 1%; margin-bottom: 1%">En Yeni Ürünler</h2>
       <div class="gallery-container">
-        <div class="slides">
+        <div class="slides" style="width: 100%; height: 100%">
           <div><img src="ayakkabı1.png" alt="yeni1" /></div>
           <div><img src="ayakkabı1.png" alt="yeni2" /></div>
           <div><img src="ayakkabı1.png" alt="yeni3" /></div>
@@ -243,7 +245,7 @@
         En Şık Günlük Ayakkabılar
       </h2>
       <div class="gallery-container">
-        <div class="slides">
+        <div class="slides" style="width: 100%; height: 100%">
           <div><img src="ayakkabı1.png" alt="gunluk1" /></div>
           <div><img src="ayakkabı1.png" alt="gunluk2" /></div>
           <div><img src="ayakkabı1.png" alt="gunluk3" /></div>
@@ -256,7 +258,7 @@
         Popüler Spor Ayakkabıları
       </h2>
       <div class="gallery-container">
-        <div class="slides">
+        <div class="slides" style="width: 100%; height: 100%">
           <div><img src="ayakkabı1.png" alt="spor1" /></div>
           <div><img src="ayakkabı1.png" alt="spor2" /></div>
           <div><img src="ayakkabı1.png" alt="spor3" /></div>
@@ -267,7 +269,7 @@
       </div>
       <h2 style="margin-top: 1%; margin-bottom: 1%">En Sevilen Kramponlar</h2>
       <div class="gallery-container">
-        <div class="slides">
+        <div class="slides" style="width: 100%; height: 100%">
           <div><img src="ayakkabı1.png" alt="krampon1" /></div>
           <div><img src="ayakkabı1.png" alt="krampon2" /></div>
           <div><img src="ayakkabı1.png" alt="krampon3" /></div>
@@ -278,63 +280,80 @@
       </div>
 
       <footer>
-        <div style="width: 100%; height: 150px;">
-          <!-- <div
-            style="
-              display: inline;
-              border: 1px solid black;
-              width: 50%;
-              height: 150px;
-              right: 5px;
-            "
-          >
-            <a href="">Hakkımızda</a>
+        <div style="width: 100%; height: 150px; font-size: large;">
+          <div style="text-align: left">
+            <a style="float: left; width: 200px" href="">Hakkımızda</a>
+            <span style="margin-left: 75%">Kategoriler</span>
           </div>
-          <div style="border: 1px solid black; display: inline">Kategoriler</div> -->
-          <div>
-            <a style="float:left;" href="">Hakkımızda</a>
-            <span style="padding-left:80%">Kategoriler</span>
+          <div style="text-align: left">
+            <a style="float: left; width: 200px" href="">İletişim</a>
+            <span style="margin-left: 75%"
+              ><a href="" style="width: 100px;">Kadın</a><a style="margin-left: 15px;" href="">Spor</a></span
+            >
           </div>
-          <div>
-            <a style="float:left;" href="">İletişim</a>
-            <span style="padding-left:80%">Kadın</span>
+          <div style="text-align: left">
+            <a style="float: left; width: 200px" href="">Gizlilik</a>
+            <span style="margin-left: 75%"
+              ><a href="" style="width: 100px;">Erkek</a><a style=" margin-left: 15px;" href="">Sneaker</a></span
+            >
           </div>
-          <div>
-            <a style="float:left;" href="">Gizlilik</a>
-            <span style="padding-left:80%">Kategoriler</span>
+          <div style="text-align: left;height: auto;">
+            <a style="float: left; width: 200px" href="">Ödeme Seçenekleri</a>
+            <span style="margin-left: 75%"
+              ><a href="" style="width: 100px;">Çocuk</a><a style="margin-left: 15px;" href="">Klasik Ayakkabı</a></span
+            >
           </div>
-          <div>
-            <a style="float:left;" href="">Ödeme Seçenekleri</a>
-            <span style="padding-left:80%">Kategoriler</span>
+          <div style="text-align: left">
+            <a style="float: left; width: 200px" href="">Kargo</a>
+            <span style="margin-left: 75%"
+              ><a href="" style="width: 100px;"></a><a href="">Bot</a></span
+            >
           </div>
-          <div>
-            <a style="float:left;" href="">Kargo</a>
-            <span style="padding-left:80%">Kategoriler</span>
+          <div style="text-align: left">
+            <a style="float: left; width: 200px" href="">Kampanyalar</a>
+            <span style="margin-left: 75%"
+              ><a href="" style="width: 100px;"></a> <a href="">Krampon</a></span
+            >
           </div>
-          <div>
-            <a style="float:left;" href="">Kampanyalar</a>
-            <span style="padding-left:80%">Kategoriler</span>
+          <div style="text-align: left">
+            <a style="float: left; width: 200px" href="">İade Koşulları</a>
           </div>
-          <div>
-            <a style="float:left;" href="">İade Koşulları</a>
-            <span style="padding-left:80%">Kategoriler</span>
-          </div>
-          <!-- <div>
-            <a style="display:inline; float:left;" href="">İletişim</a>
-            <a href="">Kadın</a>
-            <a href="">Erkek</a>
-          </div> -->
-          <!-- <div id="sagaYasla"><a href="">Çocuk</a></div>
-          <div><a href="">Spor</a></div>
-          <div><a href="">Sneaker</a></div>
-          <div><a href="">Klasik</a></div>
-          <div><a href="">Bot</a></div>
-          <div><a href="">Krampon</a></div> -->
-          <p>&copy; 2024 Beyabe</p>
         </div>
+        <p style="text-align: center; font-size: larger;">&copy; 2024 Beyabe</p>
       </footer>
       <!-- Ana içerik buraya gelecek -->
     </div>
-    <script src="script.js"></script>
+    <script src="script.js">
+      const slideGallery = document.querySelector('.slides');
+const slides = slideGallery.querySelectorAll('div');
+const scrollbarThumb = document.querySelector('.thumb');
+const slideCount = slides.length;
+const slideHeight = 720;
+const marginTop = 16;
+
+const scrollThumb = () => {
+  const index = Math.floor(slideGallery.scrollTop / slideHeight);
+  scrollbarThumb.style.height = `${((index + 1) / slideCount) * slideHeight}px`;
+};
+
+const scrollToElement = el => {
+  const index = parseInt(el.dataset.id, 10);
+  slideGallery.scrollTo(0, index * slideHeight + marginTop);
+};
+
+document.querySelector('.thumbnails').innerHTML += [...slides]
+  .map(
+    (slide, i) => `<img src="${slide.querySelector('img').src}" data-id="${i}">`
+  )
+  .join('');
+
+document.querySelectorAll('.thumbnails img').forEach(el => {
+  el.addEventListener('click', () => scrollToElement(el));
+});
+
+slideGallery.addEventListener('scroll', e => scrollThumb());
+
+scrollThumb();
+    </script>
   </body>
 </html>
