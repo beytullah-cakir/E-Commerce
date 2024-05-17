@@ -8,6 +8,7 @@ import NavBar from "../MainPage/NavBar.js";
 import Products from "../Products/Products.js";
 import ProductsCard from "../Products/ProductsCard.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Demo from "../yagızındosyası/Demo.js";
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
         <Route path="/login" element={<Loginpage />} />
           <Route path="/" element={<Home />}/>
         </Routes>
+        <Demo/>
       </BrowserRouter>
   );
 }
