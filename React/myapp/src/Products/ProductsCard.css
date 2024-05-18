@@ -1,7 +1,9 @@
-.card-image{
-    width: 200px;
-    
+.card-image {
+  width: 200px;
 }
-
-
-
+.link {
+  text-decoration: none;
+}
+.link:hover{
+    text-decoration: none;
+}

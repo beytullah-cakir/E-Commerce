@@ -209,25 +209,6 @@ function NavBar() {
       <Routes>
         <Route path="/products" element={<Products title={title} />} />
       </Routes>
-
-      {/* <Link
-            class="links"
-            to="/products"
-            onClick={(e) => setTitle(e.target.getAttribute("title"))}
-            title="boots"
-          >
-            Kadın Bot
-          </Link> 
-          
-          <Link id="home" to="/">
-              <IoHome size={25} />
-            </Link>
-
-            <Link to="/login" id="login">
-            <CgProfile size={25} />
-          </Link>
-          
-          */}
     </>
   );
 }

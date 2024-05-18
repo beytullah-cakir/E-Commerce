@@ -30,35 +30,37 @@
         type: "ladywalking walking lady"
     },
     {
-        id: 4,
+        id: 5,
         name:'Product 5',
         image: "https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg",
         price:"70",
-        type: ""
+        type: "boots",
+        cins:"gent"
     },
     {
-        id: 4,
+        id: 6,
         name:'Product 6',
         image: "https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg",
         price:"70",
-        type: ""
+        type: "boots gent",
+        cins:"lady"
     },
     {
-        id: 4,
+        id: 7,
         name:'Product 7',
         image: "https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg",
         price:"70",
         type: ""
     },
     {
-        id: 4,
+        id: 8,
         name:'Product 8',
         image: "https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg",
         price:"70",
         type: ""
     },
     {
-        id: 4,
+        id: 9,
         name:'Product 9',
         image: "https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg",
         price:"70",
