@@ -11,7 +11,7 @@ function ProductsCard({ name, price,image}) {
         <h5 className="card-title">{name}</h5>
         <p className="card-text">Price: {price}</p>
         
-        <button className="btn btn-primary"><Link to="/shop" className="text-light text-uppercase  link">Satın Al</Link></button>
+        <button className="btn btn-primary"><Link to="/payment" className="text-light text-uppercase link">Satın Al</Link></button>
       </div>
     </div>
   );

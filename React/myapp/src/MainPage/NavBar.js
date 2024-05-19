@@ -197,7 +197,7 @@ function NavBar() {
 
 
 
-          <Link to="/login" id="login">
+          <Link to="/register" id="login">
             <CgProfile size={25} />
           </Link>
 

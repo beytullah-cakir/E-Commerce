@@ -1,16 +1,4 @@
 
-  .form-container{
-    background-color: aqua;
-    justify-content: center;
-    text-align: center;
-    display: flex;
-    align-items: center; /* Center vertically */
-    height: 100vh;
-  }
-  .form-group{
-    margin: 20px;
-  }
-  .form{
-    background-color: red;
-  }
+
+
   
