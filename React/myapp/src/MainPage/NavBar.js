@@ -33,7 +33,7 @@ function NavBar() {
                     class="links"
                     to="/products"
                     onClick={(e) => setTitle(e.target.getAttribute("title"))}
-                    title="ladysport"
+                    title="kadin-spor"
                   >
                     Kadın Spor
                   </Link>
@@ -44,7 +44,7 @@ function NavBar() {
                     class="links"
                     to="/products"
                     onClick={(e) => setTitle(e.target.getAttribute("title"))}
-                    title="gentspoort"
+                    title="erkek-sppor"
                   >
                     Erkek Spor
                   </Link>
@@ -55,7 +55,7 @@ function NavBar() {
                     class="links"
                     to="/products"
                     onClick={(e) => setTitle(e.target.getAttribute("title"))}
-                    title="childspooort"
+                    title="cocuk-spoor"
                   >
                     Çocuk Spor
                   </Link>
@@ -64,15 +64,15 @@ function NavBar() {
 
 
               
-              <NavDropdown title="Sandalet" id="basic-nav-dropdown">
+              <NavDropdown title="Klasik" id="basic-nav-dropdown">
                 <NavDropdown.Item>
                   <Link
                     class="links"
                     to="/products"
                     onClick={(e) => setTitle(e.target.getAttribute("title"))}
-                    title="ladysandals"
+                    title="kadin-klasik"
                   >
-                    Kadın Sandalet
+                    Kadın Klasik
                   </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
@@ -81,9 +81,9 @@ function NavBar() {
                     class="links"
                     to="/products"
                     onClick={(e) => setTitle(e.target.getAttribute("title"))}
-                    title="gentsanddals"
+                    title="erkek-kllasik"
                   >
-                    Erkek Sandalet
+                    Erkek Klasik
                   </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
@@ -92,9 +92,9 @@ function NavBar() {
                     class="links"
                     to="/products"
                     onClick={(e) => setTitle(e.target.getAttribute("title"))}
-                    title="childsandddals"
+                    title="cocuk-klassik"
                   >
-                    Çocuk Sandalet
+                    Çocuk Klasik
                   </Link>
                 </NavDropdown.Item>
               </NavDropdown>
@@ -107,7 +107,7 @@ function NavBar() {
                     class="links"
                     to="/products"
                     onClick={(e) => setTitle(e.target.getAttribute("title"))}
-                    title="boots"
+                    title="kadin-gündelik"
                   >
                     Kadın Gündelik
                   </Link>
@@ -118,7 +118,7 @@ function NavBar() {
                     class="links"
                     to="/products"
                     onClick={(e) => setTitle(e.target.getAttribute("title"))}
-                    title="boots"
+                    title="erkek-gündeliik"
                   >
                     Erkek Gündelik
                   </Link>
@@ -129,7 +129,7 @@ function NavBar() {
                     class="links"
                     to="/products"
                     onClick={(e) => setTitle(e.target.getAttribute("title"))}
-                    title="boots"
+                    title="cocuk-günndelik"
                   >
                     Çocuk Gündelik
                   </Link>
@@ -144,7 +144,7 @@ function NavBar() {
                     class="links"
                     to="/products"
                     onClick={(e) => setTitle(e.target.getAttribute("title"))}
-                    title="boots"
+                    title="kadin-bot"
                   >
                     Kadın Bot
                   </Link>
@@ -155,7 +155,7 @@ function NavBar() {
                     class="links"
                     to="/products"
                     onClick={(e) => setTitle(e.target.getAttribute("title"))}
-                    title="boots"
+                    title="erkek-boot"
                   >
                     Erkek Bot
                   </Link>
@@ -166,18 +166,31 @@ function NavBar() {
                     class="links"
                     to="/products"
                     onClick={(e) => setTitle(e.target.getAttribute("title"))}
-                    title="boots"
+                    title="cocuk-booot"
                   >
                     Çocuk Bot
                   </Link>
                 </NavDropdown.Item>
               </NavDropdown>
+
+
+
               <Nav.Link>
                 <Link
                   class="links"
                   to="/products"
                   onClick={(e) => setTitle(e.target.getAttribute("title"))}
-                  title="boots"
+                  title="krampon"
+                >
+                  Krampon
+                </Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link
+                  class="links"
+                  to="/products"
+                  onClick={(e) => setTitle(e.target.getAttribute("title"))}
+                  title="kadin"
                 >
                   Kadın
                 </Link>
@@ -187,11 +200,12 @@ function NavBar() {
                   class="links"
                   to="/products"
                   onClick={(e) => setTitle(e.target.getAttribute("title"))}
-                  title="boots"
+                  title="erkek"
                 >
                   Erkek
                 </Link>
               </Nav.Link>
+              
             </Nav>
           </Navbar.Collapse>
 
