@@ -12,10 +12,10 @@ function NavBar() {
 
   return (
     <>
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar expand="lg" className="bg-black">
         <Container>
           <Navbar.Brand>
-            <Link id="home" to="/">
+            <Link id="home" to="/" className="link">
               Anasayfa
             </Link>
           </Navbar.Brand>
@@ -209,8 +209,8 @@ function NavBar() {
 
 
 
-          <Link to="/register" id="login">
-            login
+          <Link to="/register" id="login" className="link">
+            Kayıt Ol
           </Link>
 
 
