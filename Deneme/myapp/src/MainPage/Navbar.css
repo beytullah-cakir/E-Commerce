@@ -1,0 +1,16 @@
+.links{
+    text-decoration: none;
+    color: white;
+}
+.links:hover{
+    text-decoration: none;
+    color: white;
+}
+#home,#login{
+    color: white;
+}
+
+#basic-nav-dropdown{
+    color: white;
+}
+
