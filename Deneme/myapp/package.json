@@ -18,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "electron-dev": "concurrently \"npm:start\" \"wait-on http://localhost:3000 && electron .\"",
+    "electron-pack": "react-scripts build && electron-builder"
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +41,13 @@
     ]
   },
   "devDependencies": {
+    "electron": "^30.0.6",
+    "electron-builder": "^24.13.3",
+    "electron-is-dev": "^3.0.1",
     "react-router-dom": "^6.23.1"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "public/main.js",
+  "author": "Beytullah",
+  "license": "ISC"
 }

@@ -800,46 +800,11 @@ export const products = [
     price: "6.999,99",
     type: "erkek-kllasik",
   },
-  {
-    id: 101,
-    image:
-      "https://derimod.com.tr/cdn/shop/files/c8140d26b45e918dbb421478339eb0b8.jpg?v=1716076943",
-    name: "Geox Erkek Kahverengi Walk Pleasure Bağcıklı Süet Deri Klasik Ayakkabı",
-    price: "6.999,99",
-    type: "erkek-kllasik",
-  },
-  {
-    id: 102,
-    image:
-      "https://derimod.com.tr/cdn/shop/files/9f881445dd2878fb201045302b311baa_3b18d843-aff9-44f7-aa3e-709e38af4fd3.jpg?v=1715995118",
-    name: "Derimod Erkek Siyah Deri Klasik Ayakkabı",
-    price: "4.299,99",
-    type: "erkek-kllasik",
-  },
-  {
-    id: 103,
-    image:
-      "https://derimod.com.tr/cdn/shop/files/9a3bbc8b736e6f3654b6ee72301e1dcd_58930ea1-fe14-4d05-822a-bfaf3daa9b5d.jpg?v=1716077411",
-    name: "Derimod Erkek Kahverengi Bağcıklı Deri Klasik Ayakkabı",
-    price: "3.499,99",
-    type: "erkek-kllasik",
-  },
-  {
-    id: 104,
-    image:
-      "https://derimod.com.tr/cdn/shop/files/55a7ba16192a375da31375c9d6d95d45_ee6fa382-9037-436f-b366-6c470dab1cf7.jpg?v=1716075523",
-    name: "Derimod Erkek Lacivert Deri Klasik Ayakkabı",
-    price: "3.199,99",
-    type: "erkek-kllasik",
-  },
-  {
-    id: 105,
-    image:
-      "https://derimod.com.tr/cdn/shop/files/87b0cf83935fca7f3f17dcf1c77d7c48_b7d3fb4a-a2fa-4e84-9b4f-1b764c8c8857.jpg?v=1716077394",
-    name: "Derimod Erkek Siyah Bağcıklı Deri Klasik Ayakkabı",
-    price: "3.199,99",
-    type: "erkek-kllasik",
-  },
+
+
+ 
+ 
+ 
   {
     id: 106,
     image:
@@ -968,62 +933,10 @@ export const products = [
     price: "2.949,99",
     type: "erkek-kllasik",
   },
-  {
-    id: 122,
-    image:
-      "https://derimod.com.tr/cdn/shop/files/bcff0ee0782cfd70cb55d7c03f0b0f01_12824e54-ca7b-4fb5-8afa-cf6ee63d77b8.jpg?v=1714729911",
-    name: "Harley-Davidson Erkek Siyah Coro Deri Postal Bot",
-    price: "4.299,00",
-    type: "erkek-boot",
-  },
-  {
-    id: 123,
-    image:
-      "https://derimod.com.tr/cdn/shop/files/a06c364102001f4fef835c72726d43f4_502b9d44-19e3-44d4-9a6e-fd72bde4698b.jpg?v=1714560605",
-    name: "Geox Erkek Siyah Spherica Ec7 Chelsea Bot",
-    price: "5.999,99",
-    type: "erkek-boot",
-  },
-  {
-    id: 124,
-    image:
-      "https://derimod.com.tr/cdn/shop/files/4e50c184b5baf52e593771b6c804fd51.jpg?v=1714566996",
-    name: "Derimod Erkek Siyah Chelsea Deri Bot",
-    price: "4.499,99",
-    type: "erkek-boot",
-  },
-  {
-    id: 125,
-    image:
-      "https://derimod.com.tr/cdn/shop/files/0fa7c95b5db3f4f55f9d7fc818a0c479_92d292c8-60ed-4b06-a44a-2d06b7f2d082.jpg?v=1714580922",
-    name: "Harley Davidson Erkek Siyah Vilfrid Exc Nubuk Deri Bot",
-    price: "7.999,00",
-    type: "erkek-boot",
-  },
-  {
-    id: 126,
-    image:
-      "https://derimod.com.tr/cdn/shop/files/98fc5ad6aefd6bf1b2fdcccb6d5f5b4a_8bfc3c61-7388-4a5a-8d1e-b3416f6b9d93.jpg?v=1714580702",
-    name: "Harley Davidson Erkek Siyah Kalın Tabanlı Fermuarlı Bot",
-    price: "7.999,00",
-    type: "erkek-boot",
-  },
-  {
-    id: 127,
-    image:
-      "https://derimod.com.tr/cdn/shop/files/245630bdda5d0c9ffde9ca09fed1ea16.jpg?v=1715994900",
-    name: "Caterpillar Erkek Siyah Nueva Outdoor Bot",
-    price: "3.999,00",
-    type: "erkek-boot",
-  },
-  {
-    id: 128,
-    image:
-      "https://derimod.com.tr/cdn/shop/files/56c57b8f1a5d1978c792d3fa36abb070.jpg?v=1714730128",
-    name: "Caterpillar Erkek Hardal Colorado Nubuk Deri Bot",
-    price: "3.499,99",
-    type: "erkek-boot",
-  },
+ 
+ 
+ 
+  
   {
     id: 129,
     image:
@@ -1195,39 +1108,39 @@ export const products = [
   {
     id: 150,
     image:
-      "https://derimod.com.tr/cdn/shop/files/1160bd27f634ad4a1814cf66e5aa5c8f.jpg?v=1714582796",
-    name: "Derimod ",
+      "https://derimod.com.tr/cdn/shop/files/df58c8be9059e51eeeaaf7782f13011a_5197b0f0-e723-4254-bbb4-3b3c6325b819.jpg?v=1716270716",
+    name: "Kadın Siyah Deri Kalın Tabanlı Postal Bot",
     price: "2.249,99",
     type: "kadin-bot",
   },
   {
     id: 151,
     image:
-      "https://derimod.com.tr/cdn/shop/files/ea6e63e6b2d8227d9a31a4389c8ab894_11d87454-5dc7-43fd-9f12-6cc03221daea.jpg?v=1714681522",
-    name: "Harley-Davidson ",
+      "https://derimod.com.tr/cdn/shop/files/bbecc825570c2a2c62438da76bab2d1d_97c6d6e5-c0ee-42dd-9892-548e409170db.jpg?v=1716335923",
+    name: "Harley Davidson Kadın Bej Mourir Deri Kalın Tabanlı Chelsea Bot",
     price: "3.699,99",
     type: "kadin-bot",
   },
   {
     id: 152,
     image:
-      "https://derimod.com.tr/cdn/shop/files/58987ea42113020a440993ed6a31b841_5aad8b83-3e15-4c58-8c20-6c0b38cf4ea2.jpg?v=1714731868",
-    name: "Derimod Kadın",
+      "https://derimod.com.tr/cdn/shop/files/9ba2ef0f78278c728e6b5568a5407a2b_d3837219-dee0-4dba-b175-c8b6eb505a46.jpg?v=1716267252",
+    name: "Kadın Kahverengi Postal Deri Bot",
     price: "1.999,99",
     type: "kadin-bot",
   },
   {
     id: 153,
     image:
-      "https://derimod.com.tr/cdn/shop/files/98c3314e30572e738fdf80a499d24e4a.jpg?v=1714731195",
-    name: "Derimod Kadın Deri Postal Bot",
+      "https://derimod.com.tr/cdn/shop/files/adb9da61155edbdcf945d136e0d75648.jpg?v=1716268300",
+    name: "Kadın Haki Deri Postal Bot",
     price: "3.499,99",
     type: "kadin-bot",
   },
   {
     id: 154,
     image:
-      "https://derimod.com.tr/cdn/shop/files/9154e65ff6dc71762d298060d28384df_d85ed0be-96b5-44ff-8a36-fbdc680d5f8a.jpg?v=1714573099",
+      "https://derimod.com.tr/cdn/shop/files/1ff68c854833fefa5cb73943faecbd6d.jpg?v=1716269033",
     name: "Caterpillar Kadın Deri Bot",
     price: "3.599,99",
     type: "kadin-bot",
@@ -1235,8 +1148,8 @@ export const products = [
   {
     id: 155,
     image:
-      "https://derimod.com.tr/cdn/shop/files/f8d0d252d5bd98771faf0ff8dd0058a4_dc39de19-9b44-4d87-abd7-5cc85e331a30.jpg?v=1714731184",
-    name: "Derimod Kadın Deri Postal Bot",
+      "https://derimod.com.tr/cdn/shop/files/0abb3f2497456dd32b11a8e12276c55f.jpg?v=1716270474",
+    name: "Kadın Taba Süet Deri Postal Bot",
     price: "3.499,99",
     type: "kadin-bot",
   },

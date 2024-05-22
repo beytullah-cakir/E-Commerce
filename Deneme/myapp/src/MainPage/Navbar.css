@@ -1,10 +1,13 @@
 .links{
     text-decoration: none;
+    color: black;
+}
+.link{
     color: white;
 }
 .links:hover{
     text-decoration: none;
-    color: white;
+    
 }
 #home,#login{
     color: white;

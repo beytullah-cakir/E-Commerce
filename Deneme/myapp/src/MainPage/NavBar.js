@@ -15,7 +15,7 @@ function NavBar() {
       <Navbar expand="lg" className="bg-black">
         <Container>
           <Navbar.Brand>
-            <Link id="home" to="/" className="link">
+            <Link id="home" to="/" className="links">
               Anasayfa
             </Link>
           </Navbar.Brand>
@@ -26,7 +26,7 @@ function NavBar() {
 
 
               <NavDropdown title="Spor" id="basic-nav-dropdown">
-                <NavDropdown.Item>
+                <NavDropdown.Item >
                   <Link
                     class="links"
                     to="/products"
@@ -175,7 +175,7 @@ function NavBar() {
 
               <Nav.Link>
                 <Link
-                  class="links"
+                  class="link"
                   to="/products"
                   onClick={(e) => setTitle(e.target.getAttribute("title"))}
                   title="krampon"
@@ -185,7 +185,7 @@ function NavBar() {
               </Nav.Link>
               <Nav.Link>
                 <Link
-                  class="links"
+                  class="link"
                   to="/products"
                   onClick={(e) => setTitle(e.target.getAttribute("title"))}
                   title="kadin"
@@ -195,7 +195,7 @@ function NavBar() {
               </Nav.Link>
               <Nav.Link>
                 <Link
-                  class="links"
+                  class="link"
                   to="/products"
                   onClick={(e) => setTitle(e.target.getAttribute("title"))}
                   title="erkek"
