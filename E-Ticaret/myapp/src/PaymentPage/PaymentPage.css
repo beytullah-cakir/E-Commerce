@@ -1,0 +1,35 @@
+
+.payment-main{
+  width: 100%;
+  background-color: azure;
+  margin-top: 80px;
+}
+.product-details{
+  display: flex;
+  padding: 5px;
+  
+}
+.product-image img{
+  
+  width: 500px;
+  height: 400px;
+  margin-left: 100px;
+}
+.product-info{
+  margin-left: 200px; 
+  width: 400px;
+  height: 400px;
+  
+}
+.product-name{
+  text-align: center;
+  padding: 70px;
+  height: 300px;
+  font-size: 30px;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  
+}
